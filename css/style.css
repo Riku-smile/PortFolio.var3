@@ -308,6 +308,7 @@ article h3 {
     font-family: serif;
     padding: 20px;
     border-bottom: 1px solid #BCE0FD;
+    list-style: none;
     cursor: pointer;
 }
 .environment-nav-last {
