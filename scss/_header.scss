@@ -1,0 +1,46 @@
+/* header */
+#header {
+  background-color: #2699fb;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-family: serif;
+  padding: 10px;
+}
+h1 {
+  font-weight: normal;
+  font-size: 2rem;
+  padding: 10px;
+}
+.header {
+  &--nav {
+    display: flex;
+  }
+  &--ul {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+  }
+  &--li {
+    align-items: center;
+    padding: 10px;
+    font-size: 1.5rem;
+    list-style-type: none;
+  }
+  &--link {
+    color: white;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  /* header */
+  h1 {
+    text-align: center;
+  }
+  .header {
+    &--nav {
+      display: none;
+    }
+  }
+}

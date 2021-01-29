@@ -1,0 +1,68 @@
+@import "able";
+@import "contact";
+@import "container";
+@import "environment";
+@import "footer";
+@import "form";
+@import "header";
+@import "lang";
+@import "main";
+@import "profile";
+@import "top";
+@import "work";
+
+html {
+  font-size: 10px;
+}
+body {
+  margin: 0;
+}
+input,
+textarea,
+select {
+  background-color: #f1f9ff;
+  font-family: Arial;
+  color: #2699fb;
+  width: 250px;
+  border: 1px solid #bce0fd;
+  border-radius: 5px;
+}
+.isActive {
+  background-color: #bce0fd;
+}
+
+// slick
+.prev,
+.next {
+  background-color: #bce0fd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2699fb;
+  font-weight: 700;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  z-index: 50;
+}
+.prev:hover,
+.next:hover {
+  border: 2px solid #2699fb;
+}
+.prev {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+}
+.next {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+}
+
+@media screen and (max-width: 959px) {
+  .prev,
+  .next {
+    display: none;
+  }
+}

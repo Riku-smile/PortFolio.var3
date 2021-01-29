@@ -13,184 +13,195 @@
     <script src="js/script.js"></script>
 </head>
 <body>
-    <header id="top">
+    <header id="header" class="header">
         <h1><strong>*RIKU*</strong>のポートフォリオ</h1>
-        <nav>
-            <ul>
-                <li class="jump"><a href="#top">TOP</a></li>
-                <li class="jump"><a href="#work">作品集</a></li>
-                <li class="jump"><a href="#profile">プロフィール</a></li>
-                <li class="jump"><a href="#lang">使用言語</a></li>
-                <li class="jump"><a href="#environment">制作環境</a></li>
-                <li class="jump"><a href="#able">受注可能案件</a></li>
-                <li class="jump"><a href="#contact">お問い合わせ</a></li>
+        <nav class="header--nav">
+            <ul class="header--ul">
+                <li class="header--li"><a href="#top" class="header--link">TOP</a></li>
+                <li class="header--li"><a href="#work" class="header--link">作品集</a></li>
+                <li class="header--li"><a href="#profile" class="header--link">プロフィール</a></li>
+                <li class="header--li"><a href="#lang" class="header--link">使用言語</a></li>
+                <li class="header--li"><a href="#environment" class="header--link">制作環境</a></li>
+                <li class="header--li"><a href="#able" class="header--link">受注可能案件</a></li>
+                <li class="header--li"><a href="#contact" class="header--link">お問い合わせ</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <!-- header -->
-        <section id="header">
-            <div class="headerWord">
-                <h2>Riku's PortFolio</h2>
-                <p>私のポートフォリオです。<br>
-                    作品物・技術・プロフィールを掲載しております。</p>
-            </div>
-            <div class="img">
-                <img src="images/TopImage.jpg" alt="TopImage">
+    <main id="main">
+        <!-- main--top -->
+        <section id="main--top">
+            <div class="top">
+                <div class="top--container">
+                    <h2 class="top--title">Riku's PortFolio</h2>
+                    <p class="top--content">私のポートフォリオです。<br>
+                        作品物・技術・プロフィールを掲載しております。</p>
+                </div>
+                <div class="top--img">
+                    <img src="images/TopImage.jpg" alt="TopImage">
+                </div>
             </div>
         </section>
-        <article>
 
+        <!-- main--middle -->
+        <section id="main--middle">
             <!-- work -->
-            <section id="work">
-                <h3>作品集</h3>
-                <div class="work-slider">
-                    <div class="work-slide">
-                        <div class="work-image">
+            <section class="work container">
+                <h3 class="container--title">作品集</h3>
+                <div class="work--slider">
+                    <div class="work--slide">
+                        <div class="work--img">
                             <a href="images/work/Airbnb_demo.png">
                                 <img src="images/work/Airbnb_demo.png" alt="Airbnb_demo">
                             </a>
                         </div>
-                        <div class="work-content">
-                            <a href="https://www.airbnb.jp/host/homes" class="z-50 bottom-0 right-0 absolute">
-                                参考サイト：Airbnb様
-                            </a>
-                            <p>制作期間：１ヶ月（週４〜６時間）</p>
+                        <div class="work--content">
+                            <div class="work--inner">
+                                <a href="https://www.airbnb.jp/host/homes" class="work--link">
+                                    参考サイト：Airbnb様
+                                </a>
+                                <p class="work--period">制作期間：１ヶ月（週４〜６時間）</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="work-slide">
-                        <div class="work-image">
+                    <div class="work--slide">
+                        <div class="work--img">
                             <a href="images/work/iSara_demo.png">
                                 <img data-lazy="images/work/iSara_demo.png" alt="iSara_demo">
                             </a>
                         </div>
-                        <div class="work-content">
-                            <a href="https://isara.life" class="z-50 bottom-0 right-0 absolute">
-                                参考サイト：iSara様
-                            </a>
-                            <p>制作期間：３週間（週４〜６時間）</p>
+                        <div class="work--content">
+                            <div class="work--inner">
+                                <a href="https://isara.life" class="work--link">
+                                    参考サイト：iSara様
+                                </a>
+                                <p class="work--period">制作期間：３週間（週４〜６時間）</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="work-slide">
-                        <div class="work-image">
+                    <div class="work--slide">
+                        <div class="work--img">
                             <a href="images/work/Write_demo.png">
                                 <img data-lazy="images/work/Write_demo.png" alt="Write_demo">
                             </a>
                         </div>
-                        <div class="work-content">
-                            <a href="http://demo.themegraphy.com/write-ja/" class="z-50 bottom-0 right-0 absolute">
-                                参考サイト：Write様
-                            </a>
-                            <p>制作期間：２週間（週４〜６時間）</p>
+                        <div class="work--content">
+                            <div class="work--inner">
+                                <a href="http://demo.themegraphy.com/write-ja/" class="work--link">
+                                    参考サイト：Write様
+                                </a>
+                                <p class="work--period">制作期間：２週間（週４〜６時間）</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="work-slide">
-                        <div class="work-image">
+                    <div class="work--slide">
+                        <div class="work--img">
                             <a href="images/work/ホロライブ公式模写.png">
                                 <img data-lazy="images/work/ホロライブ公式模写.png" alt="ホロライブ公式模写">
                             </a>
                         </div>
-                        <div class="work-content">
-                            <a href="https://www.hololive.tv" class="z-50 bottom-0 right-0 absolute">
-                                参考サイト：ホロライブ様
-                            </a>
-                            <p>制作期間：２週間（週６〜８時間）</p>
+                        <div class="work--content">
+                            <div class="work--inner">
+                                <a href="https://www.hololive.tv" class="work--link">
+                                    参考サイト：ホロライブ様
+                                </a>
+                                <p class="work--period">制作期間：２週間（週６〜８時間）</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
 
             <!-- profile -->
-            <section id="profile">
-                <h3>プロフィール</h3>
-                <div class="profile-content">
-                    <div class="profile-image">
+            <section class="profile　container">
+                <h3 class="container--title">プロフィール</h3>
+                <div class="profile--content">
+                    <div class="profile--img">
                         <img src="images/myImage.jpeg" alt="myImage">
                     </div>
-                    <div class="profile-discription">
-                        <h4>RIKU</h4>
-                        <span>大学生</span>
-                        <ul>
-                            <li>目標：週に一度の案件</li>
-                            <li>開始月：2019年 ３月</li>
-                            <li>SNS：Twitter(@RIKU30335071)</li>
+                    <div class="profile--description">
+                        <h4 class="profile--name">RIKU</h4>
+                        <span class="profile--pro">大学生</span>
+                        <ul class="profile--ul">
+                            <li class="profile--li">目標：週に一度の案件</li>
+                            <li class="profile--li">開始月：2019年 ３月</li>
+                            <li class="profile--li">SNS：Twitter(@RIKU30335071)</li>
                         </ul>
                     </div>
                 </div>
             </section>
 
             <!-- lang -->
-            <section id="lang">
-                <h3>使用言語</h3>
-                <div class="lang-slider">
-                    <div class="lang-slide">
-                        <div class="lang-image">
+            <section class="lang container">
+                <h3 class="container--title">使用言語</h3>
+                <div class="lang--slider">
+                    <div class="lang--slide">
+                        <div class="lang--img">
                             <img src="images/lang/html5.svg" alt="HTML">
                         </div>
-                        <div class="lang-content">
-                            <h4>HTML5</h4>
-                            <div class="lang-discription">
-                                <ul>
-                                    <li>SEO対策：○</li>
-                                    <li>デザイン：△</li>
+                        <div class="lang--content">
+                            <h4 class="lang--name">HTML5</h4>
+                            <div class="lang--description">
+                                <ul class="lang--ul">
+                                    <li class="lang--li">SEO対策：○</li>
+                                    <li class="lang--li">デザイン：△</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="lang-slide">
-                        <div class="lang-image">
+                    <div class="lang--slide">
+                        <div class="lang--img">
                             <img data-lazy="images/lang/css.svg" alt="CSS">
                         </div>
-                        <div class="lang-content">
-                            <h4>CSS</h4>
-                            <div class="lang-discription">
-                                <ul>
-                                    <li>擬似要素：○</li>
-                                    <li>フレームワーク： Tailwindcss, Bootstrap</li>
+                        <div class="lang--content">
+                            <h4 class="lang--name">CSS</h4>
+                            <div class="lang--description">
+                                <ul class="lang--ul">
+                                    <li class="lang--li">擬似要素：○</li>
+                                    <li class="lang--li">フレームワーク： Tailwindcss, Bootstrap</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="lang-slide">
-                        <div class="lang-image">
+                    <div class="lang--slide">
+                        <div class="lang--img">
                             <img data-lazy="images/lang/javascript.svg" alt="JavaScript">
                         </div>
-                        <div class="lang-content">
-                            <h4>JavaScript</h4>
-                            <div class="lang-discription">
-                                <ul>
-                                    <li>タイマー、フェード可</li>
-                                    <li>フレームワーク：Vue.js jQuery</li>
-                                    <li>その他柔軟なプラグインも可能</li>
+                        <div class="lang--content">
+                            <h4 class="lang--name">JavaScript</h4>
+                            <div class="lang--description">
+                                <ul class="lang--ul">
+                                    <li class="lang--li">タイマー、フェード可</li>
+                                    <li class="lang--li">フレームワーク：Vue.js jQuery React</li>
+                                    <li class="lang--li">その他柔軟なプラグインも可能</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="lang-slide">
-                        <div class="lang-image">
+                    <div class="lang--slide">
+                        <div class="lang--img">
                             <img data-lazy="images/lang/php.svg" alt="PHP">
                         </div>
-                        <div class="lang-content">
-                            <h4>PHP</h4>
-                            <div class="lang-discription">
-                                <ul>
-                                    <li>技術力：△</li>
-                                    <li>WordPressテーマ可</li>
-                                    <li>フレームワーク：Laravel</li>
+                        <div class="lang--content">
+                            <h4 class="lang--name">PHP</h4>
+                            <div class="lang--description">
+                                <ul class="lang--ul">
+                                    <li class="lang--li">技術力：△</li>
+                                    <li class="lang--li">WordPressテーマ可</li>
+                                    <li class="lang--li">フレームワーク：Laravel</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="lang-slide">
-                        <div class="lang-image">
+                    <div class="lang--slide">
+                        <div class="lang--img">
                             <img data-lazy="images/lang/python.svg" alt="Python">
                         </div>
-                        <div class="lang-content">
-                            <h4>Python</h4>
-                            <div class="lang-discription">
-                                <ul>
-                                    <li>学習中</li>
-                                    <li>フレームワーク：Django</li>
+                        <div class="lang--content">
+                            <h4 class="lang--name">Python</h4>
+                            <div class="lang--description">
+                                <ul class="lang--ul">
+                                    <li class="lang--li">学習中</li>
+                                    <li class="lang--li">フレームワーク：Django</li>
                                 </ul>
                             </div>
                         </div>
@@ -199,73 +210,73 @@
             </section>
 
             <!-- environment -->
-            <section id="environment">
-                <h3>制作環境</h3>
-                <div class="environment-outer">
-                    <div class="environment-inner environment-left">
-                        <div class="environment-content environment-show">
-                            <h4>使用OS・アプリ</h4>
-                            <div>
-                                <a href="https://www.apple.com/jp/macos/catalina/">MacOS</a>
+            <section class="environment container">
+                <h3 class="container--title">制作環境</h3>
+                <div class="environment--outer">
+                    <div class="environment--inner environment--left">
+                        <div class="environment--content environment--content__show">
+                            <h4 class="environment--title">使用OS・アプリ</h4>
+                            <div class="environment--detail">
+                                <a href="https://www.apple.com/jp/macos/catalina/" class="environment--name">MacOS</a>
                                 <img src="images/environment/macos.svg" alt="MacOS">
                             </div>
-                            <div>
-                                <a href="https://www.adobe.com/jp/products/xd.html">AdobeXD</a>
+                            <div class="environment--detail">
+                                <a href="https://www.adobe.com/jp/products/xd.html" class="environment--name">AdobeXD</a>
                                 <img src="images/environment/adobe-xd-1.svg" alt="AdobeXD">
                             </div>
                         </div>
-                        <div class="environment-content">
-                            <h4>検証可能ブラウザ</h4>
-                            <div>
-                                <a href="https://www.apple.com/jp/safari/">Safari</a>
+                        <div class="environment--content">
+                            <h4 class="environment--title">検証可能ブラウザ</h4>
+                            <div class="environment--detail">
+                                <a href="https://www.apple.com/jp/safari/" class="environment--name">Safari</a>
                                 <img src="images/environment/safari-3.svg" alt="Safari">
                             </div>
-                            <div>
-                                <a href="https://www.google.com/intl/ja_jp/chrome/">Google Chrome</a>
+                            <div class="environment--detail">
+                                <a href="https://www.google.com/intl/ja_jp/chrome/" class="environment--name">Google Chrome</a>
                                 <img src="images/environment/chrome.svg" alt="Google Chrome">
                             </div>
                         </div>
-                        <div class="environment-content">
-                            <h4>活動範囲</h4>
-                            <div>
-                                <p>神奈川県</p>
+                        <div class="environment--content">
+                            <h4 class="environment--title">活動範囲</h4>
+                            <div class="environment--detail">
+                                <p class="environment--name">神奈川県</p>
                                 <img src="images/environment/kanagawa.png" alt="Kanagawa">
                             </div>
-                            <div>
-                                <p>東京都</p>
+                            <div class="environment--detail">
+                                <p class="environment--name">東京都</p>
                                 <img src="images/environment/tokyo.png" alt="Tokyo">
                             </div>
                         </div>
-                        <div class="environment-content">
-                            <h4>学習環境</h4>
-                            <div>
-                                <a href="https://dotinstall.com">DotInstall</a>
+                        <div class="environment--content">
+                            <h4 class="environment--title">学習環境</h4>
+                            <div class="environment--detail">
+                                <a href="https://dotinstall.com" class="environment--name">DotInstall</a>
                                 <img src="images/environment/Dotinstall.png" alt="DotInstall">
                             </div>
-                            <div>
-                                <a href="https://prog-8.com">Progate</a>
+                            <div class="environment--detail">
+                                <a href="https://prog-8.com" class="environment--name">Progate</a>
                                 <img src="images/environment/progate.jpg" alt="Progate">
                             </div>
-                            <div>
-                                <p>その他インターネット</p>
+                            <div class="environment--detail">
+                                <p class="environment--name">その他インターネット</p>
                                 <img src="images/environment/internet-explorer-4.svg" alt="Internet">
                             </div>
                         </div>
                     </div>
-                    <ul class="environment-inner environment-right">
-                        <li class="environment-nav environment-active">
+                    <ul class="environment--inner environment--right">
+                        <li class="environment--nav isActive">
                             <h4>使用OS・アプリ</h4>
                             <span>詳しく見る</span>
                         </li>
-                        <li class="environment-nav">
+                        <li class="environment--nav">
                             <h4>検証可能ブラウザ</h4>
                             <span>詳しく見る</span>
                         </li>
-                        <li class="environment-nav">
+                        <li class="environment--nav">
                             <h4>活動範囲</h4>
                             <span>詳しく見る</span>
                         </li>
-                        <li class="environment-nav environment-nav-last">
+                        <li class="environment--nav environment--nav__last">
                             <h4>学習環境</h4>
                             <span>詳しく見る</span>
                         </li>
@@ -274,59 +285,59 @@
             </section>
 
             <!-- able -->
-            <section id="able">
-                <h3>対応可能作業</h3>
-                <div class="able-outer">
-                    <div class="able-inner">
-                        <div class="able-top">
-                            <h4>Webデザイン(LP/HP)</h4>
-                            <div class="able-fin">
-                                <span class="able-mark">¥</span>
+            <section class="able container">
+                <h3 class="container--title">対応可能作業</h3>
+                <div class="able--outer">
+                    <div class="able--inner">
+                        <div class="able--top">
+                            <h4 class="able--title">Webデザイン(LP/HP)</h4>
+                            <div class="able--fin">
+                                <span class="able--mark">¥</span>
                                 ５千円〜
-                                <span class="able-unit">/1p</span>
+                                <span class="able--unit">/1p</span>
                             </div>
                         </div>
-                        <div class="able-mid">
-                            <ul>
-                                <li>制作期間：〜１週間</li>
-                                <li>対応アプリ：Adobe XD</li>
-                                <li>ヒアリングシート有</li>
-                                <li>主にWebコーディングとのセット</li>
+                        <div class="able--mid">
+                            <ul class="able--ul">
+                                <li class="able--li">制作期間：〜１週間</li>
+                                <li class="able--li">対応アプリ：Adobe XD</li>
+                                <li class="able--li">ヒアリングシート有</li>
+                                <li class="able--li">主にWebコーディングとのセット</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="able-inner">
-                        <div class="able-top">
-                            <h4>Webコーディング(LP/HP)</h4>
-                            <div class="able-fin">
-                                <span class="able-mark">¥</span>
+                    <div class="able--inner">
+                        <div class="able--top">
+                            <h4 class="able--title">Webコーディング(LP/HP)</h4>
+                            <div class="able--fin">
+                                <span class="able--mark">¥</span>
                                 １万円〜
-                                <span class="able-unit">/1p</span>
+                                <span class="able--unit">/1p</span>
                             </div>
                         </div>
-                        <div class="able-mid">
-                            <ul>
-                                <li>制作期間：１週間〜</li>
-                                <li>Adobe Ai, XD等からのコーディング</li>
-                                <li>お問い合わせフォームの設置可(+５千円)</li>
-                                <li>SPA対応可(+５千円/1p)</li>
+                        <div class="able--mid">
+                            <ul class="able--ul">
+                                <li class="able--li">制作期間：１週間〜</li>
+                                <li class="able--li">Adobe Ai, XD等からのコーディング</li>
+                                <li class="able--li">お問い合わせフォームの設置可(+５千円)</li>
+                                <li class="able--li">SPA対応可(+５千円/1p)</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="able-inner">
-                        <div class="able-top">
-                            <h4>WordPress新規テーマ作成</h4>
-                            <div class="able-fin">
-                                <span class="able-mark">¥</span>
+                    <div class="able--inner">
+                        <div class="able--top">
+                            <h4 class="able--title">WordPress新規テーマ作成</h4>
+                            <div class="able--fin">
+                                <span class="able--mark">¥</span>
                                 ２万円〜
-                                <span class="able-unit">/1p</span>
+                                <span class="able--unit">/1p</span>
                             </div>
                         </div>
-                        <div class="able-mid">
-                            <ul>
-                                <li>制作期間：１ヶ月〜</li>
-                                <li>タイトル、サムネイル、ナビゲーションの設置可</li>
-                                <li>既存サイトのWordPress化可</li>
+                        <div class="able--mid">
+                            <ul class="able--ul">
+                                <li class="able--li">制作期間：１ヶ月〜</li>
+                                <li class="able--li">タイトル、サムネイル、ナビゲーションの設置可</li>
+                                <li class="able--li">既存サイトのWordPress化可</li>
                             </ul>
                         </div>
                     </div>
@@ -334,31 +345,31 @@
             </section>
 
             <!-- contact -->
-            <section id="contact">
-                <h3>お問い合わせ</h3>
-                <form method="post" action="php/mail.php">
-                    <div class="name">
-                        <span>お名前</span>
-                        <input size="20" type="text" name="お名前" />
+            <section class="contact">
+                <h3 class="contact--title">お問い合わせ</h3>
+                <form method="post" action="php/mail.php" class="form">
+                    <div class="form--name form--inner">
+                        <span class="form--title">お名前</span>
+                        <input size="20" type="text" name="お名前" class="form--detail" />
                     </div>
-                    <div class="mail">
-                        <span>メールアドレス</span>
-                        <input size="30" type="text" name="Email" />
+                    <div class="form--mail form--inner">
+                        <span class="form--title">メールアドレス</span>
+                        <input size="30" type="text" name="Email" class="form--detail" />
                     </div>
-                    <div class="title">
-                        <span>タイトル</span>
-                        <select name="タイトル" id="title">
+                    <div class="form--title form--inner">
+                        <span class="form--title">タイトル</span>
+                        <select name="タイトル" id="title" class="form--detail">
                             <option value="感想">感想</option>
                             <option value="お問い合わせ">お問い合わせ</option>
                         </select>
                     </div>
-                    <div class="content">
-                        <span>内容</span>
-                        <textarea name="内容" id="content" cols="50" rows="5"></textarea>
+                    <div class="form--content form--inner">
+                        <span class="form--title">内容</span>
+                        <textarea name="内容" id="content" cols="50" rows="5" class="form--detail"></textarea>
                     </div>
-                    <div class="confirmation">
-                        <input type="submit" value="　 確認 　" />
-                        <input type="reset" value="リセット" />
+                    <div class="form--confirmation">
+                        <input type="submit" value="　 確認 　" class="form--btn" />
+                        <input type="reset" value="リセット" class="form--btn" />
                     </div>
                 </form>
             </section>
@@ -366,10 +377,10 @@
     </main>
 
     <!-- footer -->
-    <footer>
-        <p>(c)Riku</p>
-        <span>
-            <a href="https://twitter.com/Riku30335017/">
+    <footer id="footer" class="footer">
+        <p class="footer--cw">(c)Riku</p>
+        <span class="footer--sns">
+            <a href="https://twitter.com/Riku30335017/" class="footer--link">
                 <img src="images/twitterIcon.svg" alt="Twitter">
             </a>
         </span>

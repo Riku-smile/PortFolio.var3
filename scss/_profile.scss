@@ -1,0 +1,46 @@
+/* section#profile */
+.profile {
+  &--content {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  &--img {
+    flex-basis: 300px;
+    height: 400px;
+    overflow: hidden;
+    & img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  &--description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  &--name {
+    font-size: 2rem;
+  }
+  &--pro {
+    color: gray;
+    margin: 5px 0 20px;
+  }
+  &--ul {
+    padding: 20px;
+    border: 1px solid #2699fb;
+  }
+  &--li {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  .profile {
+    &--content {
+      flex-direction: column;
+    }
+    &--description {
+      padding: 10px;
+    }
+  }
+}

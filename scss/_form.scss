@@ -1,0 +1,25 @@
+.form {
+  &--inner {
+    margin-top: 40px;
+  }
+  &--title {
+    display: block;
+    color: #2699fb;
+  }
+  &--detail {
+    padding: 5px;
+  }
+  &--confirmation {
+    text-align: center;
+  }
+  &--btn {
+    width: 100px;
+    margin-top: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+    &:hover {
+      border: 1px solid #2699fb;
+      opacity: 0.8;
+    }
+  }
+}
